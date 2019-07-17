@@ -1,2 +1,4 @@
 This document is a document.
 I love documents.
+
+Documents are the best.
