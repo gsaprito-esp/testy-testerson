@@ -1,34 +1,7 @@
 stages:
   - build
-  - test
-  - deploy
-
-image: geotest
-
+  
 build_a:
   stage: build
-  script: 
-    - echo "This is build_a"
-
-build_b:
-  stage: build
   script:
-    - echo "This is build_b"
-
-test_a:
-  stage: test
-    - echo "This is test_a"
-
-test_b:
-  stage: test
-    - echo "This is test_b"
-
-deploy_a:
-  stage: deploy
-  script:
-    - echo "this is deploy_a"
-
-deploy_b:
-  stage: deploy
-  script:
-    - echo "this is deploy_b"
+    - echo "this is build_a"
